@@ -9,7 +9,6 @@ public struct Environment {
     extensions: [Extension] = [],
     templateClass: Template.Type = Template.self,
     trimBehavior: TrimBehavior = .none
-    self.trimBehavior = trimBehavior
   ) {
     self.templateClass = templateClass
     self.loader = loader
